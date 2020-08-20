@@ -11,6 +11,20 @@ body {
 	flex-direction: column;
 }
 
+main {
+	flex: 2;
+	margin: 0 auto;
+	max-width: 60rem;
+	padding: 0 0 12rem 0;
+}
+
+/* Not that much bottom padding on mobile. */
+@media (max-width: 500px) {
+	main {
+		padding: 0 0 6rem 0;
+	}
+}
+
 h1, h2, h3 {
 	font-family: 'Cormorant', 'Times New Roman', Times, serif;
 	padding: 0 1rem;
