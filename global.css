@@ -89,6 +89,7 @@ button:active,
 button:focus {
 	cursor: pointer;
 	background-color: #eeedf1;
+	border:none;
 }
 
 button:disabled {
@@ -110,10 +111,19 @@ p a {
 	border-bottom: 1px solid #333;
 }
 
-.pic-right {
+.pic-desktop {
 	box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+}
+
+.pic-right {
 	margin: .4rem 1rem .5rem 1rem;
 	float: right;
+}
+
+.pic-left {
+	box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+	margin: .4rem 2rem .5rem 1rem;
+	float: left;
 }
 
 .pic-mobile {
