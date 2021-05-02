@@ -21,6 +21,7 @@ h1 {
 	font-size: 3.5rem;
 	font-weight: 700;
 	margin: 4rem 0 3rem 0;
+	line-height: 1em;
 }
 
 
@@ -113,6 +114,10 @@ p a {
 
 .pic-desktop {
 	box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+}
+
+.pic-no-shadow {
+	box-shadow: none;
 }
 
 .pic-right {
